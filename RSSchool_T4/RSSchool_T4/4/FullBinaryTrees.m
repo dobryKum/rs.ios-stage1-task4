@@ -1,8 +1,17 @@
 #import "FullBinaryTrees.h"
 
+@interface FullBinaryTrees ()
+@property(nonatomic, strong) NSMutableArray<NSMutableArray*> *array;
+@end
+
 @implementation FullBinaryTrees
 - (NSString *)stringForNodeCount:(NSInteger)count {
-    // good luck
-    return 0;
+    if (count % 2 == 0)
+        return @"[]";
+    if (count == 1)
+        return @"[[0]]";
+    
+    
+    return @"";
 }
 @end
