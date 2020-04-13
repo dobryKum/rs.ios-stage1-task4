@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D037F102444CDB30095E69E /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D037F0F2444CDB30095E69E /* TreeNode.m */; };
 		25787FDA243F8E5F0066701D /* SquareDecomposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25787FCA243F8E5F0066701D /* SquareDecomposer.m */; };
 		25787FDB243F8E5F0066701D /* SquareDecomposer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25787FCB243F8E5F0066701D /* SquareDecomposer.pdf */; };
 		25787FDC243F8E5F0066701D /* ArrayCalculator.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25787FCE243F8E5F0066701D /* ArrayCalculator.pdf */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D037F0E2444CDB30095E69E /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		1D037F0F2444CDB30095E69E /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 		25787FB1243F85B40066701D /* RSSchool_T4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSchool_T4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25787FB5243F85B40066701D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25787FCA243F8E5F0066701D /* SquareDecomposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareDecomposer.m; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 				25787FD2243F8E5F0066701D /* ExampleTrees.png */,
 				25787FD3243F8E5F0066701D /* FullBinaryTrees.h */,
 				25787FD5243F8E5F0066701D /* FullBinaryTrees.m */,
+				1D037F0E2444CDB30095E69E /* TreeNode.h */,
+				1D037F0F2444CDB30095E69E /* TreeNode.m */,
 			);
 			path = 4;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D037F102444CDB30095E69E /* TreeNode.m in Sources */,
 				25787FE0243F8E5F0066701D /* FullBinaryTrees.m in Sources */,
 				BD47B55B2268EDA10060BDF3 /* main.m in Sources */,
 				25787FDD243F8E5F0066701D /* ArrayCalculator.m in Sources */,
